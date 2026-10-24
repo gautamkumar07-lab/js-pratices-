@@ -1,0 +1,11 @@
+{
+  "question": "What happens when you run `let s = \"cat\"; s[0] = \"b\";`?",
+  "options": [
+    "s becomes \"bat\"",
+    "s remains \"cat\" because strings are immutable primitives in JavaScript",
+    "Throws a SyntaxError",
+    "Returns undefined"
+  ],
+  "answer": 1,
+  "explanation": "In JavaScript, strings are primitive values and completely immutable. Attempting to assign to an index fails."
+}

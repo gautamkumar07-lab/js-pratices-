@@ -1,0 +1,11 @@
+{
+  "question": "Why does passing an anonymous function to `removeEventListener` fail to remove the listener?",
+  "options": [
+    "Anonymous functions are protected by browser security",
+    "Every anonymous function has a unique memory reference, so it does not match the original listener reference",
+    "removeEventListener only accepts strings",
+    "Listeners cannot be removed once added"
+  ],
+  "answer": 1,
+  "explanation": "removeEventListener requires the exact same function reference that was passed to addEventListener."
+}

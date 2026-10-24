@@ -1,0 +1,11 @@
+{
+  "question": "Which event is best suited for real-time character count or instant password strength meters?",
+  "options": [
+    "change",
+    "input",
+    "submit",
+    "load"
+  ],
+  "answer": 1,
+  "explanation": "The \"input\" event fires synchronously on every keystroke, paste, or value change, making it ideal for live feedback."
+}

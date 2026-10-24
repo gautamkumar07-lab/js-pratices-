@@ -1,0 +1,11 @@
+{
+  "question": "What does the `new` operator bind `this` to during instantiation?",
+  "options": [
+    "The global window object",
+    "The newly created empty object instance",
+    "The constructor function definition itself",
+    "undefined"
+  ],
+  "answer": 1,
+  "explanation": "The new operator creates a fresh empty object linked to the prototype, then binds `this` to that new instance during constructor execution."
+}

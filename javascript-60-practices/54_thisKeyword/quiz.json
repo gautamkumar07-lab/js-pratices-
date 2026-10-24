@@ -1,0 +1,11 @@
+{
+  "question": "What does `this` evaluate to inside an arrow function defined inside a class method?",
+  "options": [
+    "The global window object",
+    "The class instance where the method was executed (lexical this)",
+    "undefined",
+    "The arrow function itself"
+  ],
+  "answer": 1,
+  "explanation": "Arrow functions do not bind their own `this`; they inherit `this` lexically from the enclosing execution context."
+}

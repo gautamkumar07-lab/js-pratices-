@@ -1,0 +1,11 @@
+{
+  "question": "In `const { count: total = 10 } = obj;`, what variable name is created?",
+  "options": [
+    "count",
+    "total",
+    "obj",
+    "both count and total"
+  ],
+  "answer": 1,
+  "explanation": "The colon `:` renames the property from `count` to the variable `total`. `count` is not created as a local variable."
+}

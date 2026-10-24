@@ -1,0 +1,11 @@
+{
+  "question": "What is returned by `\"a-b-c\".replace(\"-\", \":\")` vs `\"a-b-c\".replaceAll(\"-\", \":\")`?",
+  "options": [
+    "\"a:b:c\" and \"a:b:c\"",
+    "\"a:b-c\" and \"a:b:c\"",
+    "\"a-b-c\" and \"a:b:c\"",
+    "Throws a TypeError"
+  ],
+  "answer": 1,
+  "explanation": "replace() with a string pattern replaces only the first occurrence, whereas replaceAll() replaces every occurrence."
+}

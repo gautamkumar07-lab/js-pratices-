@@ -1,0 +1,11 @@
+{
+  "question": "What distinguishes a do...while loop from a while loop?",
+  "options": [
+    "do...while can only iterate over numbers",
+    "do...while always executes the loop body at least once",
+    "do...while does not support break or continue",
+    "do...while runs in a separate Web Worker thread"
+  ],
+  "answer": 1,
+  "explanation": "Because the conditional expression is evaluated at the bottom of the loop, the loop body always executes at least once."
+}

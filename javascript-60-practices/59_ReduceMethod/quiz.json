@@ -1,0 +1,11 @@
+{
+  "question": "What happens if you invoke `[].reduce((acc, val) => acc + val)` without an initial value?",
+  "options": [
+    "Returns 0",
+    "Throws a TypeError: Reduce of empty array with no initial value",
+    "Returns undefined",
+    "Returns NaN"
+  ],
+  "answer": 1,
+  "explanation": "Without an initialValue, reduce tries to take the first element as the accumulator. Since the array is empty, it throws a TypeError."
+}

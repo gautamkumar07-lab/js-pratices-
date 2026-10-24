@@ -1,0 +1,11 @@
+{
+  "question": "What causes a \"Maximum call stack size exceeded\" error when implementing a setter?",
+  "options": [
+    "The value being passed is too large",
+    "Assigning to `this.propertyName` inside `set propertyName(val)` triggers the setter recursively",
+    "Getters and setters cannot be used on classes",
+    "The method was declared static"
+  ],
+  "answer": 1,
+  "explanation": "If a setter assigns to the exact same property name without using an underlying backing variable (like `#name` or `_name`), it re-triggers itself forever."
+}

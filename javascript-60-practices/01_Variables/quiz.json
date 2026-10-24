@@ -1,0 +1,11 @@
+{
+  "question": "What happens when you mutate a property of an object declared with `const user = { name: \"Eve\" }`?",
+  "options": [
+    "It throws a TypeError because const values cannot change",
+    "It succeeds because const locks the memory reference, not the internal properties",
+    "It causes undefined to be returned",
+    "It only works if you declare the property with var"
+  ],
+  "answer": 1,
+  "explanation": "const prevents reassignment of the variable binding itself (e.g. user = {}), but does not make the object deeply immutable."
+}

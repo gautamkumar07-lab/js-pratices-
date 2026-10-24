@@ -1,0 +1,11 @@
+{
+  "question": "What architectural separation makes mini-projects easy to maintain and test?",
+  "options": [
+    "Putting all JavaScript, HTML, and CSS inside a single inline event handler",
+    "Separating state and business logic into pure functions/classes apart from the UI rendering layer",
+    "Avoiding functions and writing all code globally",
+    "Using setTimeout for all state changes"
+  ],
+  "answer": 1,
+  "explanation": "Decoupling state management from DOM/UI rendering makes logic deterministic, unit-testable, and clean."
+}

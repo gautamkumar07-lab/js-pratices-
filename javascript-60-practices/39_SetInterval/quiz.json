@@ -1,0 +1,11 @@
+{
+  "question": "Why is recursive setTimeout often preferred over setInterval for network polling?",
+  "options": [
+    "setTimeout uses less CPU than setInterval",
+    "Recursive setTimeout guarantees that the previous asynchronous operation has finished before scheduling the next one",
+    "setInterval is deprecated in ES2022",
+    "setTimeout can bypass browser throttling"
+  ],
+  "answer": 1,
+  "explanation": "With setInterval, ticks fire regardless of whether the previous network call finished. Recursive setTimeout ensures true gap spacing between calls."
+}

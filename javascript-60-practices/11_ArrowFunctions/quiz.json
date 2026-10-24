@@ -1,0 +1,11 @@
+{
+  "question": "What is returned by `const fn = () => { foo: \"bar\" }; fn();`?",
+  "options": [
+    "{ foo: \"bar\" }",
+    "undefined",
+    "SyntaxError",
+    "\"bar\""
+  ],
+  "answer": 1,
+  "explanation": "The curly braces are parsed as a function block with a label \"foo\", not an object literal! To return an object implicitly, wrap it in parens: `() => ({ foo: \"bar\" })`."
+}

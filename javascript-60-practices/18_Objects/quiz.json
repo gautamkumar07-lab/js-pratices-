@@ -1,0 +1,11 @@
+{
+  "question": "Why is `{ a: 1 } === { a: 1 }` false in JavaScript?",
+  "options": [
+    "The values are coerced into different types",
+    "Objects are compared by reference in memory, and each literal creates a distinct object",
+    "JavaScript does not support object comparison",
+    "Strict equality only works on numbers"
+  ],
+  "answer": 1,
+  "explanation": "In JavaScript, objects are reference types. Strict equality checks whether both sides reference the exact same memory address."
+}

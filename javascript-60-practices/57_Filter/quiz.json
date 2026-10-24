@@ -1,0 +1,11 @@
+{
+  "question": "What is the concise JavaScript idiom to strip all falsy values from an array?",
+  "options": [
+    "arr.filter(true)",
+    "arr.filter(Boolean)",
+    "arr.removeFalsy()",
+    "arr.clean()"
+  ],
+  "answer": 1,
+  "explanation": "Passing the Boolean constructor `arr.filter(Boolean)` evaluates each item for truthiness, dropping all 8 falsy values."
+}

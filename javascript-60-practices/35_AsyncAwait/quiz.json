@@ -1,0 +1,11 @@
+{
+  "question": "Why does `await` not work properly inside an `Array.prototype.forEach` callback?",
+  "options": [
+    "forEach is not a valid JavaScript method",
+    "forEach does not wait for promises returned by its callback, running all iterations concurrently without awaiting completion",
+    "forEach converts promises to numbers",
+    "SyntaxError is thrown immediately"
+  ],
+  "answer": 1,
+  "explanation": "forEach ignores the return value of its callback. It does not await promises, so subsequent code executes before async iterations finish."
+}

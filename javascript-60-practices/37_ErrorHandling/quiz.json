@@ -1,0 +1,11 @@
+{
+  "question": "Why should you always throw `new Error(\"msg\")` rather than a plain string like `throw \"msg\"`?",
+  "options": [
+    "JavaScript forbids throwing strings",
+    "Error objects capture the stack trace, showing the exact file and line number where the issue occurred",
+    "Strings cannot be caught in catch blocks",
+    "Error objects run faster"
+  ],
+  "answer": 1,
+  "explanation": "Instances of Error automatically capture the runtime call stack, essential for debugging root causes."
+}

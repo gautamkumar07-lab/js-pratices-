@@ -1,0 +1,11 @@
+{
+  "question": "What happens to properties with duplicate keys when spreading two objects: `{ ...{ a: 1, b: 2 }, ...{ b: 99 } }`?",
+  "options": [
+    "Throws a duplicate property SyntaxError",
+    "The second object's value overrides the first: { a: 1, b: 99 }",
+    "Both values are preserved as an array: { a: 1, b: [2, 99] }",
+    "The first object's value is kept: { a: 1, b: 2 }"
+  ],
+  "answer": 1,
+  "explanation": "In object spread operations, properties evaluated later in the sequence overwrite any preceding properties with the same name."
+}

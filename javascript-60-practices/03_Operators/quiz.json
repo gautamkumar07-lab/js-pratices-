@@ -1,0 +1,11 @@
+{
+  "question": "What is the output of `0 ?? 42` versus `0 || 42`?",
+  "options": [
+    "0 and 0",
+    "0 and 42",
+    "42 and 42",
+    "42 and 0"
+  ],
+  "answer": 1,
+  "explanation": "?? only triggers fallback for null and undefined, so 0 ?? 42 yields 0. Meanwhile || triggers fallback for any falsy value (including 0), so 0 || 42 yields 42."
+}

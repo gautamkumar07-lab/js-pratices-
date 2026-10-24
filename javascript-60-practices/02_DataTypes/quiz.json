@@ -1,0 +1,11 @@
+{
+  "question": "What does `typeof null` evaluate to in JavaScript?",
+  "options": [
+    "\"null\"",
+    "\"object\"",
+    "\"undefined\"",
+    "\"boolean\""
+  ],
+  "answer": 1,
+  "explanation": "In early JavaScript engines, values were stored with type tags. Objects had tag 0, and null was represented as a NULL pointer (value 0), causing typeof null to return \"object\"."
+}

@@ -1,0 +1,11 @@
+{
+  "question": "Which of the following uses a SYNCHRONOUS callback?",
+  "options": [
+    "setTimeout(cb, 0)",
+    "Array.prototype.map(cb)",
+    "addEventListener(\"click\", cb)",
+    "fetch().then(cb)"
+  ],
+  "answer": 1,
+  "explanation": "Array methods like map, filter, and forEach execute their callback synchronously on the current call stack before returning."
+}

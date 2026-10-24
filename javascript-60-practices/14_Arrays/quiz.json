@@ -1,0 +1,11 @@
+{
+  "question": "Which method returns the last element of an array without mutating it in modern JavaScript?",
+  "options": [
+    "arr.pop()",
+    "arr.at(-1)",
+    "arr.last()",
+    "arr[-1]"
+  ],
+  "answer": 1,
+  "explanation": "Array.prototype.at(-1) safely retrieves the last item using negative indexing without modifying the array."
+}

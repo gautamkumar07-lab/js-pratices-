@@ -1,0 +1,11 @@
+{
+  "question": "Why can running `regex.test(str)` multiple times with the `/g` flag yield alternating true and false results on the same string?",
+  "options": [
+    "The regex engine corrupts the string",
+    "The regex object maintains an internal `lastIndex` pointer that advances on each successful match",
+    "It is a known browser memory leak",
+    "Regex only works once per thread"
+  ],
+  "answer": 1,
+  "explanation": "With the `/g` flag, RegExp instances maintain state in the `lastIndex` property. Once it reaches the end, it resets to 0, causing alternate results."
+}

@@ -1,0 +1,11 @@
+{
+  "question": "Which of the following is considered a Higher-Order Function?",
+  "options": [
+    "Math.max(1, 2, 3)",
+    "Array.prototype.filter()",
+    "JSON.stringify({ a: 1 })",
+    "parseInt(\"10\")"
+  ],
+  "answer": 1,
+  "explanation": "Array.prototype.filter takes a predicate function as its argument, satisfying the definition of a Higher-Order Function."
+}

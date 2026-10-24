@@ -1,0 +1,11 @@
+{
+  "question": "Which queue has higher priority and is completely drained before macrotasks run?",
+  "options": [
+    "Macrotask Queue",
+    "Microtask Queue",
+    "Animation Frame Queue",
+    "Timer Heap"
+  ],
+  "answer": 1,
+  "explanation": "The microtask queue is drained completely immediately after the call stack empties, before any task in the macrotask queue can execute."
+}

@@ -1,0 +1,11 @@
+{
+  "question": "What month does `new Date(2026, 4, 1)` represent in JavaScript?",
+  "options": [
+    "April",
+    "May",
+    "June",
+    "March"
+  ],
+  "answer": 1,
+  "explanation": "Months are 0-indexed in the JavaScript Date constructor: 0 = January, 1 = February, 2 = March, 3 = April, 4 = May."
+}

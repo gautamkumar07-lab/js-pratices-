@@ -1,0 +1,11 @@
+{
+  "question": "How do you call a static method `static helper()` defined on class `MyClass`?",
+  "options": [
+    "new MyClass().helper()",
+    "MyClass.helper()",
+    "MyClass::helper()",
+    "helper(MyClass)"
+  ],
+  "answer": 1,
+  "explanation": "Static methods live on the class object itself and are invoked directly via `ClassName.methodName()` without instantiation."
+}

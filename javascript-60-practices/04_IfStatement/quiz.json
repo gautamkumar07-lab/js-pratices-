@@ -1,0 +1,11 @@
+{
+  "question": "Which of the following values will evaluate to true inside an if condition?",
+  "options": [
+    "\"\" (empty string)",
+    "0",
+    "[] (empty array)",
+    "null"
+  ],
+  "answer": 2,
+  "explanation": "All objects (including arrays and plain objects) are truthy in JavaScript, even if empty!"
+}

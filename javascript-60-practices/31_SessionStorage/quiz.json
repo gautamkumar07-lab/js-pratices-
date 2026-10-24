@@ -1,0 +1,11 @@
+{
+  "question": "If a user opens the same URL in two different browser tabs, what is true about their sessionStorage?",
+  "options": [
+    "Both tabs share the exact same sessionStorage",
+    "Each tab has its own independent, isolated sessionStorage instance",
+    "The second tab overwrites the first tab",
+    "SessionStorage is disabled in the second tab"
+  ],
+  "answer": 1,
+  "explanation": "SessionStorage is strictly tab-scoped. Even identical URLs in different tabs maintain completely isolated session stores."
+}

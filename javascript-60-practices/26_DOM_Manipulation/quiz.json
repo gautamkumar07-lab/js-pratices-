@@ -1,0 +1,11 @@
+{
+  "question": "Which property should you use to set text safely without risk of Cross-Site Scripting (XSS)?",
+  "options": [
+    "innerHTML",
+    "outerHTML",
+    "textContent",
+    "dangerouslySetInnerHTML"
+  ],
+  "answer": 2,
+  "explanation": "textContent does not parse HTML tags or execute inline scripts, rendering everything safely as plain text."
+}

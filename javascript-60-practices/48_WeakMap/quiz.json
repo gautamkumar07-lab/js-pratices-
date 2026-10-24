@@ -1,0 +1,11 @@
+{
+  "question": "Why are WeakMaps NOT iterable and have no `.size` property?",
+  "options": [
+    "The ES6 committee ran out of time",
+    "Garbage collection is non-deterministic, so the number of entries could change at any moment",
+    "WeakMaps are stored in browser cookies",
+    "WeakMaps only store a single element"
+  ],
+  "answer": 1,
+  "explanation": "Because keys are weakly held and subject to garbage collection at any time, providing iteration or size would expose non-deterministic GC behavior."
+}

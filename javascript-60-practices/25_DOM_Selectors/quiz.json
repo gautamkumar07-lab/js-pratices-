@@ -1,0 +1,11 @@
+{
+  "question": "What does `document.querySelector(\".card\")` return if multiple elements have class=\"card\"?",
+  "options": [
+    "An array of all matching cards",
+    "Only the first matching element in document order",
+    "A NodeList of elements",
+    "Throws a DOMException"
+  ],
+  "answer": 1,
+  "explanation": "querySelector returns only the very first element matching the selector in depth-first document order, or null if no matches exist."
+}

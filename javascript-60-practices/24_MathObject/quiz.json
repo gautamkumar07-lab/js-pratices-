@@ -1,0 +1,11 @@
+{
+  "question": "What does `Math.trunc(-3.9)` return?",
+  "options": [
+    "-4",
+    "-3",
+    "3",
+    "NaN"
+  ],
+  "answer": 1,
+  "explanation": "Math.trunc() discards the fractional part completely, truncating -3.9 towards zero to yield -3."
+}

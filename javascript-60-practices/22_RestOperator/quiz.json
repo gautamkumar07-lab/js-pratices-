@@ -1,0 +1,11 @@
+{
+  "question": "Which is a valid function definition using rest parameters?",
+  "options": [
+    "function test(...a, b) {}",
+    "function test(a, ...b) {}",
+    "function test(...a, ...b) {}",
+    "function test(a, ...b, c) {}"
+  ],
+  "answer": 1,
+  "explanation": "The rest parameter must strictly be the very last parameter in the function parameter list."
+}

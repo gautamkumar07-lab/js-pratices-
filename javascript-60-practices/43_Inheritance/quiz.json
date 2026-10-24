@@ -1,0 +1,11 @@
+{
+  "question": "What happens if you reference `this.name = \"jet\"` before `super()` in a derived class constructor?",
+  "options": [
+    "It sets the property on the parent",
+    "It throws a ReferenceError",
+    "It works normally",
+    "It returns undefined"
+  ],
+  "answer": 1,
+  "explanation": "In derived class constructors, the instance object is initialized by the parent constructor; accessing `this` before calling super() is an illegal ReferenceError."
+}

@@ -1,0 +1,11 @@
+{
+  "question": "What is the effect of `setTimeout(fn, 0)`?",
+  "options": [
+    "It executes the function synchronously on the current line",
+    "It queues the function to run in the Macrotask Queue as soon as the current Call Stack is empty",
+    "It causes a deadlock",
+    "It cancels any running timer"
+  ],
+  "answer": 1,
+  "explanation": "setTimeout(fn, 0) schedules the callback as a macrotask. It will execute only after all current synchronous code and microtasks finish."
+}

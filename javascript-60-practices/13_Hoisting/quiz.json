@@ -1,0 +1,11 @@
+{
+  "question": "What error is thrown when trying to read a `const` variable inside its Temporal Dead Zone?",
+  "options": [
+    "TypeError",
+    "ReferenceError",
+    "SyntaxError",
+    "RangeError"
+  ],
+  "answer": 1,
+  "explanation": "The JavaScript engine throws a ReferenceError: Cannot access variable before initialization when attempting to read a TDZ variable."
+}

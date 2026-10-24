@@ -1,0 +1,11 @@
+{
+  "question": "What is the inverse of `Object.entries()`?",
+  "options": [
+    "Object.toEntries()",
+    "Object.fromEntries()",
+    "Object.keys()",
+    "Object.values()"
+  ],
+  "answer": 1,
+  "explanation": "Object.fromEntries takes an iterable of key-value pairs (like an array of pairs or a Map) and constructs a new object."
+}

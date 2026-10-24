@@ -1,0 +1,11 @@
+{
+  "question": "What is the difference between `e.target` and `e.currentTarget`?",
+  "options": [
+    "They are always 100% identical",
+    "e.target is the element that triggered the event, while e.currentTarget is the element with the event listener attached",
+    "e.currentTarget is only available in Internet Explorer",
+    "e.target only works on buttons"
+  ],
+  "answer": 1,
+  "explanation": "e.target originates the event, but as the event bubbles up, e.currentTarget is the element currently handling the listener."
+}

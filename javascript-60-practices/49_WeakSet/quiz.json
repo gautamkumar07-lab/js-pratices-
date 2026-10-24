@@ -1,0 +1,11 @@
+{
+  "question": "Which of the following values can be added to a WeakSet?",
+  "options": [
+    "\"my_tag\"",
+    "42",
+    "{ id: 1 }",
+    "true"
+  ],
+  "answer": 2,
+  "explanation": "WeakSets strictly accept only Objects (and Symbols in newer specifications). Passing any primitive throws a TypeError."
+}

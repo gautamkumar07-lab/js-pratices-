@@ -1,0 +1,11 @@
+{
+  "question": "Which comparison operator does JavaScript switch...case use when evaluating cases?",
+  "options": [
+    "== (loose equality)",
+    "=== (strict equality)",
+    "Object.is()",
+    "!= (inequality)"
+  ],
+  "answer": 1,
+  "explanation": "Switch statements always evaluate cases using strict equality (===), meaning both value and type must match without coercion."
+}

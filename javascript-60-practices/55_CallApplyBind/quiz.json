@@ -1,0 +1,11 @@
+{
+  "question": "What is the key difference between `.call()` and `.bind()`?",
+  "options": [
+    "call only accepts arrays, while bind accepts numbers",
+    "call executes the function immediately, while bind returns a new permanently bound function",
+    "bind is asynchronous, while call is synchronous",
+    "call was removed in ES6"
+  ],
+  "answer": 1,
+  "explanation": "`.call()` immediately runs the target function, whereas `.bind()` returns a newly created function with `this` bound to the supplied argument."
+}

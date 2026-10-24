@@ -1,0 +1,11 @@
+{
+  "question": "What is the main benefit of \"tree-shaking\" in modern ES module bundlers?",
+  "options": [
+    "It speeds up JavaScript execution in loops",
+    "It automatically removes unused exports from the final production bundle",
+    "It formats code automatically",
+    "It converts ES6 modules to CommonJS"
+  ],
+  "answer": 1,
+  "explanation": "Because ES module imports and exports are static, bundlers can analyze the dependency graph and eliminate unused code (dead code elimination)."
+}

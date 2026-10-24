@@ -1,0 +1,11 @@
+{
+  "question": "Why can a function declaration be called before its line of definition, but a function expression cannot?",
+  "options": [
+    "Function declarations are compiled in C++ while expressions run in JS",
+    "Function declarations are fully hoisted with their body during the compilation phase",
+    "Function expressions only work inside loops",
+    "Function declarations are asynchronous"
+  ],
+  "answer": 1,
+  "explanation": "During the memory creation phase, the JS engine hoists entire function declarations into memory, making them callable anywhere in their scope."
+}

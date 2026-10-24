@@ -1,0 +1,11 @@
+{
+  "question": "What happens if you run `localStorage.setItem(\"user\", { name: \"John\" })` without JSON.stringify?",
+  "options": [
+    "It automatically converts the object to JSON",
+    "It converts the object to the string \"[object Object]\"",
+    "Throws a TypeError",
+    "It stores a pointer"
+  ],
+  "answer": 1,
+  "explanation": "LocalStorage coerces non-string arguments into strings via String(val), turning plain objects into \"[object Object]\"."
+}

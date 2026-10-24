@@ -1,0 +1,11 @@
+{
+  "question": "Does `fetch(\"https://example.com/api\")` reject its Promise if the server responds with a 404 Not Found?",
+  "options": [
+    "Yes, any 4xx or 5xx status automatically rejects the fetch promise",
+    "No, it resolves normally with response.ok set to false",
+    "It throws a SyntaxError",
+    "It retries 3 times before failing"
+  ],
+  "answer": 1,
+  "explanation": "Fetch only rejects upon network failure or blocked requests. HTTP error statuses like 404 or 500 still resolve the promise with response.ok = false."
+}

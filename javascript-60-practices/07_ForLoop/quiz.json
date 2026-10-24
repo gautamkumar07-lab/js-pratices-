@@ -1,0 +1,11 @@
+{
+  "question": "What is the recommended modern loop to iterate over the values of an Array?",
+  "options": [
+    "for...in",
+    "for...of",
+    "while(true)",
+    "goto"
+  ],
+  "answer": 1,
+  "explanation": "for...of is designed specifically for iterables like Arrays, Maps, and Sets, cleanly yielding values rather than object keys."
+}

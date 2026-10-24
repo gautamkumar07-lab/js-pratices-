@@ -1,0 +1,11 @@
+{
+  "question": "Why does an inner function still have access to outer variables after the outer function returns?",
+  "options": [
+    "The variables are copied onto the global window object",
+    "The JavaScript engine preserves the lexical environment record as long as a reference to the inner function exists",
+    "Functions re-execute the outer function each time they are called",
+    "Closures run in a separate Web Worker thread"
+  ],
+  "answer": 1,
+  "explanation": "Functions hold a hidden reference to their enclosing lexical scope. The garbage collector does not destroy the environment while live references exist."
+}

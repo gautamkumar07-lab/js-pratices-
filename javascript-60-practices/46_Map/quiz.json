@@ -1,0 +1,11 @@
+{
+  "question": "Why does `const m = new Map(); m.set({}, \"val\"); m.get({});` return `undefined`?",
+  "options": [
+    "Objects are not allowed as Map keys",
+    "Each empty object literal creates a unique memory reference, so the keys are not identical",
+    "Map only stores numbers",
+    "Map.get is an asynchronous method"
+  ],
+  "answer": 1,
+  "explanation": "Maps check object key equality using SameValueZero (reference equality). The second `{}` is a new object with a different reference."
+}

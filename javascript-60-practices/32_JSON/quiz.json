@@ -1,0 +1,11 @@
+{
+  "question": "What happens to a property whose value is `undefined` when passed through `JSON.stringify({ a: 1, b: undefined })`?",
+  "options": [
+    "It is stringified as \"b\": null",
+    "It is completely omitted from the resulting JSON string",
+    "It throws a TypeError",
+    "It is stringified as \"b\": undefined"
+  ],
+  "answer": 1,
+  "explanation": "In JSON.stringify, undefined values in objects are omitted completely. (In arrays, they are converted to null)."
+}

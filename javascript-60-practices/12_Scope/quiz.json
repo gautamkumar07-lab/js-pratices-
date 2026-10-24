@@ -1,0 +1,11 @@
+{
+  "question": "What type of scope does a `let` variable have inside an `if` block?",
+  "options": [
+    "Function scope",
+    "Block scope",
+    "Global scope",
+    "Dynamic scope"
+  ],
+  "answer": 1,
+  "explanation": "`let` and `const` are strictly block-scoped, meaning they cannot be accessed outside the enclosing `{}` curly braces."
+}

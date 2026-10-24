@@ -1,0 +1,11 @@
+{
+  "question": "What is the primary architectural issue with Callback Hell besides aesthetic indentation?",
+  "options": [
+    "It causes stack overflows in CPU caches",
+    "Inversion of control, difficult error propagation, and loss of composability",
+    "It cannot be run in Node.js",
+    "Browsers throttle nested functions to 1fps"
+  ],
+  "answer": 1,
+  "explanation": "Callback hell inverts control, making error handling verbose and repeated, and prevents easy composition, cancellation, or concurrency."
+}

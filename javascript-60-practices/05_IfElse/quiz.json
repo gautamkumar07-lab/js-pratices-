@@ -1,0 +1,11 @@
+{
+  "question": "What is the primary benefit of the Guard Clause pattern over nested if-else?",
+  "options": [
+    "It makes the code run 10x faster",
+    "It flattens indentation and reduces cognitive load by handling edge cases early",
+    "It allows variables to escape their block scope",
+    "It converts functions into pure expressions"
+  ],
+  "answer": 1,
+  "explanation": "Guard clauses exit early, keeping the happy path at the lowest indentation level without nested pyramids."
+}

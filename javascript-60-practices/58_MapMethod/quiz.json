@@ -1,0 +1,11 @@
+{
+  "question": "Why does `[\"10\", \"10\", \"10\"].map(parseInt)` return `[10, NaN, 2]`?",
+  "options": [
+    "JavaScript engine bug with the number 10",
+    "map passes the element AND its array index (0, 1, 2) as arguments, which parseInt interprets as radix bases",
+    "Strings cannot be parsed in arrays",
+    "parseInt only works on decimals"
+  ],
+  "answer": 1,
+  "explanation": "map passes (item, index, arr). parseInt(\"10\", 0) uses base 10 = 10; parseInt(\"10\", 1) is invalid base = NaN; parseInt(\"10\", 2) is binary = 2."
+}

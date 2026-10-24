@@ -1,0 +1,11 @@
+{
+  "question": "How do you declare a truly private instance field in modern JavaScript classes?",
+  "options": [
+    "private fieldName = 0;",
+    "#fieldName = 0;",
+    "_fieldName = 0;",
+    "var fieldName = 0;"
+  ],
+  "answer": 1,
+  "explanation": "The `#` prefix syntax (introduced in ES2022) declares engine-enforced private fields and methods."
+}

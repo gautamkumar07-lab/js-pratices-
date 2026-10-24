@@ -1,0 +1,11 @@
+{
+  "question": "What is the default behavior of `[10, 2, 5].sort()` without a comparison function?",
+  "options": [
+    "Sorts numerically: [2, 5, 10]",
+    "Sorts lexicographically (as strings): [10, 2, 5]",
+    "Throws a TypeError",
+    "Leaves the array unchanged"
+  ],
+  "answer": 1,
+  "explanation": "Array.prototype.sort converts elements to strings before comparing by default, meaning \"10\" comes before \"2\"."
+}

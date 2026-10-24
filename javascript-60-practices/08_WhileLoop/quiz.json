@@ -1,0 +1,11 @@
+{
+  "question": "How many times will `let x = 5; while (x < 5) { x++; }` execute its loop body?",
+  "options": [
+    "0 times",
+    "1 time",
+    "5 times",
+    "Infinite times"
+  ],
+  "answer": 0,
+  "explanation": "The while loop tests the condition before running. Since 5 < 5 is false at the start, the loop body never executes."
+}

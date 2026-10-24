@@ -1,0 +1,11 @@
+{
+  "question": "What is the time complexity of checking if a value exists in a Set via `set.has(val)`?",
+  "options": [
+    "O(N) linear time",
+    "O(1) constant time",
+    "O(log N)",
+    "O(N^2)"
+  ],
+  "answer": 1,
+  "explanation": "Sets are implemented as hash sets under the hood in modern JavaScript engines, providing average O(1) lookup."
+}
